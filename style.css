@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(225, 90, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-row{
+    display: flex;
+    align-items: center;
+    padding: 5px 80px;
+}
+
+.icon-row h2{
+    color: white;
+    font-weight: 900;
+}
+nav{
+    margin-right: 110px;
+}
