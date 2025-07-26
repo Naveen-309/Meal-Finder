@@ -73,3 +73,25 @@ nav{
   background-color: white;
   color: #f26c1d; 
 }
+
+
+.content{
+    border: 2px solid rgb(226, 148, 100);
+    margin: 30px 55px;
+    padding: 5px 10px;
+}
+.content h2{
+    font-family: Georgia, serif;
+    color: rgb(225, 90, 6);
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+.content p{
+    font-family: Georgia, serif;
+    font-weight: normal;
+    color: black;
+    padding-left: 10px;
+    line-height: 1.6;
+}
