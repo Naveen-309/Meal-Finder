@@ -18,3 +18,53 @@ header{
 nav{
     margin-right: 110px;
 }
+
+.search-section{
+    background-image: url("./assests/background.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 300px;
+
+}
+.search-section h2,p{
+    color: white;
+}
+.search-section .search-here{
+    text-align: center;
+    padding-top: 8%;
+    
+}
+.search-here input{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.search-section{
+    position: relative;
+}
+.circle-button {
+  background-color: #f26c1d; 
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  top: 0;
+  left: 58.5%;
+  margin-top: 93px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.circle-button:hover {
+  background-color: white;
+  color: #f26c1d; 
+}
+
