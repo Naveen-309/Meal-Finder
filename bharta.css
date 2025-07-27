@@ -73,3 +73,33 @@ nav{
   background-color: white;
   color: #f26c1d; 
 }
+
+.second-header{
+    background-color: rgb(225, 90, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin-left: 65px;
+}
+
+.head{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #333;
+    margin-left: 65px;
+}
+
+.head::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+     width: 62px;         
+    height: 3px;          
+    background-color: #e9967a; 
+    border-radius: 2px; 
+}
