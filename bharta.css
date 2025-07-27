@@ -83,6 +83,18 @@ nav{
     margin-left: 65px;
 }
 
+.icon-row1{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+.icon-row1 h2{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 .head{
     position: relative;
     display: inline-block;
@@ -91,6 +103,7 @@ nav{
     font-size: 20px;
     color: #333;
     margin-left: 65px;
+    
 }
 
 .head::after{
@@ -103,3 +116,4 @@ nav{
     background-color: #e9967a; 
     border-radius: 2px; 
 }
+
