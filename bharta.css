@@ -117,3 +117,136 @@ nav{
     border-radius: 2px; 
 }
 
+.meal-details{
+    background-color: white;
+    margin: 40px 65px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.details{
+    display: flex;
+    gap: 10px;
+}
+
+.img-details img{
+    width: 400px;
+    object-fit: cover;
+    padding: 10px 40px;
+}
+.high{
+    color: rgb(225, 90, 6);
+    position: relative;
+    display: inline-block;
+}
+
+.high::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;        
+    width: 450px;         
+    height: 2px;          
+    background-color: #e9967a; 
+    border-radius: 2px;   
+}
+
+.category{
+    color: black;
+}
+.source{
+    color: black;
+}
+.source a{
+    text-decoration: none;
+    color: #333;
+}
+
+.tags{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+.tags > span:first-child {
+    font-weight: bold;
+    color: #000;
+}
+.tag-name{
+    border: 1px solid #f5a9a9;
+    color: #f26c1d;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: transparent;
+}
+.ingredients-box{
+    background-color: #f26c1d;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    color: white;
+    /* margin: 10px 25px; */
+    margin-right: 22px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.ingredients-box h4{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ingredients-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+}
+
+/* .ingredient{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+
+.number{
+     display: inline-block;
+    background-color: #0097a7;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.measure-section h4{
+    padding-left: 40px;
+    font-size: 20px;
+}
+.measurement-list{
+    display: flex;
+    column-gap: 300px;
+    row-gap: 30px;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 0px 4px 8px rgba(241,226,226,0.2);
+    border: 0.5px solid rgb(248, 246, 246);
+    margin: 20px 40px;
+
+}
+
+.measurement-list-col{
+    list-style: none;
+}
+.measurement-list-col li{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.measurement-list-col i{
+    color: #f26c1d;
+    margin-right:5px;
+}
+
