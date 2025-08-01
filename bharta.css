@@ -342,3 +342,155 @@ nav{
     top: 5px;
     right: 5px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    header, .second-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .icon-row, nav {
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .search-section {
+        height: 400px;
+    }
+
+    .circle-button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-details img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ingredients-box {
+        max-width: 90%;
+    }
+
+    .ingredients-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .measurement-list {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .instruction-list {
+        padding-left: 20px;
+    }
+
+    .menu-items {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 20px;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header, .second-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .icon-row, .icon-row1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .icon-row h2, .icon-row1 h2 {
+        font-size: 18px;
+    }
+
+    .search-here input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .circle-button {
+        position: relative;
+        margin: 10px auto;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+
+    .details {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .img-details img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ingredients-box {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .ingredients-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .measurement-list {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .instruction-list {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .heading,
+    .head {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .high::after {
+        width: 100%;
+    }
+
+    .menu-items {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+}
